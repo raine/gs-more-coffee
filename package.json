@@ -12,6 +12,8 @@
 	  "coffee-script": "1.6.x"
   },
   "scripts": {
-	  "build": "_coffee -c src/ -o lib/"
+	  "build": "_coffee -c src/ -o lib/",
+	  "clean": "rm lib/*.js",
+	  "postinstall": "npm run build"
   }
 }
