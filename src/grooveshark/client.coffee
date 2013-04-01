@@ -1,7 +1,6 @@
 uuid   = require 'node-uuid'
 crypto = require 'crypto'
 http   = require 'request'
-_      = require 'underscore'
 
 class Client
 	BASE_URL = 'https://grooveshark.com/more.php?'
@@ -48,7 +47,7 @@ class Client
 
 	request: (method, params, cb) ->
 		args = arguments
-		logParams = _.clone params
+		logParams = JSON.parse JSON.stringify params
 		logParams.password = "***" if logParams.password
 		console.log "[request] method: #{method} params: #{JSON.stringify logParams}" if @debug
 
