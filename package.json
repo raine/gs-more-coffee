@@ -1,0 +1,17 @@
+{
+  "name": "grooveshark",
+  "description": "An API library for Grooveshark.com",
+  "version": "0.0.1",
+  "author": "Raine Virta <raine.virta@gmail.com>",
+  "keywords": ["grooveshark", "music"],
+  "main": "lib/grooveshark.js",
+  "engines": { "node": ">= 0.8.0" },
+  "dependencies": {
+	  "request": "2.x.x",
+	  "node-uuid": "1.4.x",
+	  "underscore": "1.4.x"
+  },
+  "devDependencies": {
+	  "coffee-script": "1.6.x"
+  }
+}
