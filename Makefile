@@ -11,8 +11,3 @@ clean:
 
 build:
 	./node_modules/.bin/coffee -o lib/ -c src/
-
-dist: clean init build
-
-publish: dist
-	npm publish
