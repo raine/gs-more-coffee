@@ -24,6 +24,8 @@ Check the [docs](http://coffeedoc.info/github/raneksi/gs-more-coffee/master/) or
 
 List URLs of the playlists for the logged-in user:
 
+    gs = require 'gs-more'
+
     client = new gs.Client
     client.login 'username', 'password', (err, user) ->
         if err
