@@ -12,7 +12,7 @@ This module was developed to satisfy needs of
 [gs-tool](http://github.com/raneksi/gs-tool) so it may not implement the API
 thoroughly. It's pretty easy to extend, though.
 
-Check the [docs](http://coffeedoc.info/github/raneksi/gs-more-coffee/master/) or code for implement methods.
+Check the [docs](http://coffeedoc.info/github/raneksi/gs-more-coffee/master/) or code for the implemented methods.
 
 ---
 
