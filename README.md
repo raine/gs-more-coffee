@@ -9,7 +9,7 @@ calls without an API key due to the nature of your app, e.g. a command-line
 script.
 
 This module was developed to satisfy needs of
-[gs-tool](http://github.com/raneksi/gs-tool) so it may not implement the API
+[gstool](http://github.com/raneksi/gstool) so it may not implement the API
 thoroughly. It's pretty easy to extend, though.
 
 Check the [docs](http://coffeedoc.info/github/raneksi/gs-more-coffee/master/) or code for the implemented methods.
