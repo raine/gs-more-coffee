@@ -1,6 +1,6 @@
 {
-  "name": "grooveshark",
-  "description": "An API library for Grooveshark.com",
+  "name": "gs-more-coffee",
+  "description": "A node module for accessing the unofficial Grooveshark API",
   "version": "0.0.1",
   "author": "Raine Virta <raine.virta@gmail.com>",
   "keywords": ["grooveshark", "music"],
