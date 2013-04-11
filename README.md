@@ -18,7 +18,7 @@ Check the [docs](http://coffeedoc.info/github/raneksi/gs-more-coffee/master/) or
 
 ### Installation
 
-    npm install gs-more-coffee
+    npm install gs-more
 
 ### Example
 

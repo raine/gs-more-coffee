@@ -1,5 +1,5 @@
 {
-  "name": "gs-more-coffee",
+  "name": "gs-more",
   "description": "A node module for accessing the unofficial Grooveshark API",
   "version": "0.0.1",
   "author": "Raine Virta <raine.virta@gmail.com>",
