@@ -16,14 +16,18 @@ Check the [docs](http://coffeedoc.info/github/raneksi/gs-more-coffee/master/) or
 
 ---
 
+### Installation
+
+    npm install gs-more-coffee
+
 ### Example
 
 List URLs of the playlists for the logged-in user
-  
-	client = new gs.Client
-	client.login 'username', 'password', (err, user) ->
-		if err
-			console.log err
-		else
-			user.getPlaylists (err, playlists) ->
-				console.log e.url for e in playlists
+
+    client = new gs.Client
+    client.login 'username', 'password', (err, user) ->
+        if err
+            console.log err
+        else
+            user.getPlaylists (err, playlists) ->
+                console.log e.url for e in playlists
