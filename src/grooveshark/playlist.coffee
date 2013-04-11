@@ -16,6 +16,8 @@ class Playlist
 		@id     = data.PlaylistID
 		@name   = data.Name
 
+		@url = Playlist.getURL @name, @id
+
 	delete: (cb) ->
 		@client.request 'deletePlaylist',
 			playlistID: @id
@@ -28,8 +30,5 @@ class Playlist
 			return cb err if err
 			@songs = res.Songs
 			cb null, @songs
-
-	getURL: ->
-		Playlist.getURL @name, @id
 
 module.exports = Playlist
