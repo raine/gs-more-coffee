@@ -22,7 +22,7 @@ Check the [docs](http://coffeedoc.info/github/raneksi/gs-more-coffee/master/) or
 
 ### Example
 
-List URLs of the playlists for the logged-in user
+List URLs of the playlists for the logged-in user:
 
     client = new gs.Client
     client.login 'username', 'password', (err, user) ->
